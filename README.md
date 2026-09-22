@@ -14,3 +14,6 @@ Savunma sanayisi ve ileri seviye gömülü yazılım projelerinde sıkça kullan
 ## 👨‍💻 Geliştirici
 **Furkan ŞIK**  
 *Elektrik-Elektronik Mühendisliği 4. Sınıf | Gömülü Yazılım (STM32) & C++*
+---
+## ⚠️ Mühendislik Notu (MISRA C++ Standartları)
+*Bu simülasyonda C++'ın Polimorfizm ve Virtual Destructor gibi OOP yeteneklerini tam anlamıyla sergileyebilmek için dinamik bellek yönetimi (`new`/`delete`) kullanılmıştır. Gerçek dünya gömülü sistem uygulamalarında ve kritik savunma sanayisi projelerinde (MISRA standartları gereği) bellek parçalanmasını (fragmentation) önlemek adına **Statik Bellek Tahsisi (Static Allocation)** kullanılacaktır.*
